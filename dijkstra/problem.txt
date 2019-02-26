@@ -1,0 +1,20 @@
+You’re in charge of preparing a recently purchased lot for one Amazon’s new building. The lot is covered with trenches and has single obstacle that needs to be taken down before the foundation can be prepared for the building. The demolition robot must remove the obstacles before progress can be made on the building.
+
+Write an algorithm to determine the minimum distance required for the demolition robot to remove the obstacle.
+
+Assumptions:
+* The lot is flat, except for trenches, and can be represented as two-dimensional grid
+* The demolition robot must start from the top-left corner of the lot, which is always flat, and can move one block up, down, left. or right at a time
+* The demolition robot cannot enter trenches and cannot leave the lot
+* The flat areas are represented as 1, areas with trenches are represented by 0 and obstacles is represented by 9
+
+Input
+
+The input to the function/method consist of three arguments:
+numRows, an integer that represents the number of rows
+numColumns, an integer that represents the number of columns
+lot, representing the two-dimensional grid of integers
+
+
+Output:
+Retrun an integer representing the minimum distance traversed to remove the obstacle else, return -1
